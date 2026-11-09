@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jinlize.tech/education/JLZ-EDU-SK-087/input.schema.json",
+  "title": "作业负担与有效性审查输入契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "assignments",
+    "grade",
+    "student_group",
+    "learning_objectives",
+    "schedule_context"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.2.0"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ],
+      "description": "输入资料的确认状态"
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "assignments": {
+      "title": "跨学科作业清单",
+      "description": "学科、任务、目标、预计用时和提交方式",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "grade": {
+      "title": "年级",
+      "description": "用于年龄与教学常规边界",
+      "type": "string",
+      "minLength": 1
+    },
+    "student_group": {
+      "title": "学生群体",
+      "description": "班型与学习差异摘要",
+      "type": "string",
+      "minLength": 1
+    },
+    "learning_objectives": {
+      "title": "目标",
+      "description": "作业应服务的学习目标",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "parent_feedback": {
+      "title": "家长反馈摘要",
+      "description": "脱敏后的负荷反馈",
+      "type": "string",
+      "minLength": 1
+    },
+    "schedule_context": {
+      "title": "周内时间安排",
+      "description": "考试、假期和活动周",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "number": 87,
+  "product_id": "JLZ-EDU-SK-087",
+  "candidate_id": "CAND-016",
+  "chinese_name": "作业负担与有效性审查",
+  "english_name": "Homework Load and Effectiveness Review",
+  "repository_name": "edu-homework-load-review",
+  "repository_url": "https://github.com/jinlize-tech/edu-homework-load-review",
+  "product_type": "Skill",
+  "category": "10 教学质量与学习证据中心",
+  "batch": 2,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "周作业负荷表",
+    "跨学科冲突",
+    "替代任务建议"
+  ],
+  "optional_outputs": [
+    "低效任务清单",
+    "分层规则",
+    "家长沟通模板"
+  ],
+  "high_risk": false,
+  "deterministic": false,
+  "scenario_count": 12,
+  "package_path": "dist/edu-homework-load-review-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}
