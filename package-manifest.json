@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-087",
   "repository_name": "edu-homework-load-review",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-homework-load-review-v1.0.0.zip",
-  "sha256": "0E77DF175714B3064F33BDC2DE19194E50120783061B270AF954BBB5921D2040",
-  "bytes": 39773,
+  "version": "1.0.1",
+  "package_path": "dist/edu-homework-load-review-v1.0.1.zip",
+  "sha256": "16FD48398F427105A2F7A03CF3D09E40036EFD66AF67C0ED8AEBBA0A8F4DD3F2",
+  "bytes": 40819,
   "entries": [
     "edu-homework-load-review/README.md",
     "edu-homework-load-review/PRODUCT_SPEC.md",
@@ -34,5 +34,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:04:56.977804+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-homework-load-review-v1.0.0.zip",
+  "previous_package_sha256": "0E77DF175714B3064F33BDC2DE19194E50120783061B270AF954BBB5921D2040",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
